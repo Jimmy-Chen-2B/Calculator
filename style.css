@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    width: 272px;
+    margin: 16px;
+    padding: 8px;
+    background-color: #000;
+}
+
+.display {
+    font-size: 48px;
+    color: #fff;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.sec-number {
+    display: none;
+}
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-group button {
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#zero {
+    width: 128px;
+}
